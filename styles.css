@@ -1,0 +1,289 @@
+html{
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  
+  
+}
+
+html, h1, h2{
+  margin: 0;
+}
+/* header start */
+.top{
+display: inline-grid;
+grid-template-columns: 500px;
+grid-template-rows:70px 70px 350px;
+width:100%;
+font-size: 1rem;
+align-self: center;
+justify-self: center;
+
+}
+
+.logoHeader{ 
+  display: flex; 
+  align-self: center;
+  justify-self: center;
+  }
+
+
+.location{
+background-color: rgb(229, 229, 229);
+border:none;
+box-shadow: inset 0px 3px 6px -1px rgb(175, 171, 171);
+justify-content: center;
+font-size: 22px;
+display: grid;
+grid-template-columns: 35% 1fr;
+grid-gap: 15px;  
+}
+
+.location p{
+align-self: center;
+justify-self:start;
+}
+
+.location i{
+align-self: center;
+justify-self: end;
+}
+
+
+  
+
+header{
+text-align: center;
+}
+
+.explorer{
+  display: grid;
+  grid-template-rows: 33% 33% 1fr;
+  background-color: rgb(243, 243, 243);
+  padding-top: 35px;
+}
+.explorer em{
+  color: white;
+  border: 1px none;
+   border-radius: 25px;
+   padding: 17px;
+   font-style: normal;
+   background-image: linear-gradient( rgb(242, 117, 248),rgb(164,84,214));
+    }
+
+
+h2{
+display: block;
+grid-template-rows: 1fr;
+height: 70px;
+margin-left: 15px;
+margin-top: 35px;
+font-size: 30px;
+}
+
+
+/* header end */
+
+/* fonctionnement start */
+
+.fonctio{
+  display: grid;
+  grid-template-columns: 500px;
+  grid-template-rows:70px 70px 70px;
+  width:100%;
+  font-size: 1rem;
+  grid-gap: 20px;
+  justify-content: center;
+
+  }
+
+
+  .choisissez{
+    border: none;
+    box-shadow: -1px 2px 4px -1px gray;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(243,243,243);
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    grid-gap: 15px; 
+    color: black;  
+    
+    }
+
+    .choisissez p{
+      align-self: center;
+      justify-self:start;
+      }
+
+    .choisissez i{
+      align-self: center;
+      justify-self: end;
+      }
+
+      .choisissez:hover {
+        background-color : rgb(242,231,255);
+        text-decoration:none;
+        }
+
+  .composez{
+    border: none;
+    box-shadow: -1px 2px 4px -1px gray;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(243,243,243);
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    grid-gap: 15px; 
+    color: black; 
+    }
+
+    .composez p{
+      align-self: center;
+      justify-self:start;
+      }
+
+    .composez i{
+      align-self: center;
+      justify-self: end;
+      }
+
+      .composez:hover {
+        background-color : rgb(242,231,255);
+        text-decoration:none;
+        }
+
+  .dégustez{
+    border: none;
+    box-shadow: -1px 2px 4px -1px gray;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(243,243,243);
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    grid-gap: 15px;  
+    color: black; 
+    }
+
+    .dégustez p{
+      align-self: center;
+      justify-self:start;
+      }
+
+    .dégustez i{
+      align-self: center;
+      justify-self: end;
+      }
+      .dégustez:hover {
+        background-color : rgb(242,231,255);
+        text-decoration:none;
+        }
+  /*Fonctionnement end*/
+
+  /*Restaurant start*/
+
+  .restautant-global{
+    display: flex;
+    background-color:pink;
+    margin-top: 25px;
+}
+ 
+
+.restau{
+  height: 300px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin: 2rem;
+  
+}
+
+.restau > a {
+width: 100%;
+display: block;
+height: 70%;
+}
+
+.restau  p {
+ margin-top: 0px;
+
+}
+
+.restau-bg{
+    height: 100%;
+    border-radius: 20px 20px 0 0;   
+}
+
+
+.restau-bg{
+  background-size: cover;
+  background-position: center;
+}
+
+.restau-bg    p {
+position: absolute;
+margin-top: 15px;
+color: green;
+margin-right: 10%;
+text-align: right;
+border: none 1px solid;
+background-color: rgb(137, 221, 198);
+ }
+
+
+.restau-bg.gout {
+  background-image: url('./images/goût.jpg');
+}
+.restau-bg.enchante {
+  background-image: url('./images/enchantée.jpg');
+}
+.restau-bg.francaise {
+  background-image: url('./images/française.jpg');
+}
+
+.restau-bg.sens {
+  background-image: url('./images/sens.jpg');
+}
+
+
+.restau-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;  
+}
+
+
+.restau-txt {
+padding-left: 15px;
+display: grid;
+grid-template-columns: 85% 1fr;
+grid-template-rows: 2fr;
+width: 100%;
+
+}
+
+.restau-txt  i {
+  color: black;
+  justify-self: center;
+  align-self: center;
+  font-size: 24px;
+  }
+
+ 
+.footer-box{
+display: grid;
+grid-template-columns: 500px;
+grid-template-rows:30% 6fr;
+width:100%;
+font-size: 1rem;
+background-color: rgb(39, 39, 39);
+color: white;
+
+}
